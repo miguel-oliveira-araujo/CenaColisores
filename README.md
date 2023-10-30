@@ -48,9 +48,30 @@ Também criei um método Jogar para carregar a cena 1, e adicionei ele em um eve
 
 # Colisores
 ## Static Colidder
-É um colisor onde o componente fica parado, utilizamos no estádio, nas traves e no bloqueio.
-<img src = "imagens/static.png"> <br>
+É um colisor onde o componente fica parado, utilizamos no estádio, nas traves e no bloqueio. Utilizamos Box e Mesh Collider. <br>
+<img src = "imagens/boxco.jpg"> <br>
+<img src = "imagens/mesh.jpg"> <br>
 
+## RigidBody Collider
+Utilizamos esse colisor no Belligol, na chuteira e na bola para dar física para eles.<br>
+<img src = "imagens/rigid.jpg"> <br>
 
+## Kinematic Rigidbody Collider
+Adicionamos ele na chuteira e no Belligol para movimentar eles com scripts. Para isso ativamos a propiedade Is Kinematic.<br>
+<img src = "imagens/trigger.jpg"> <br>
 
+## Static Trigger Collider
+Usamos ele nas redes do gol para quando ocorrer colisão e a bola atravessar mude a cena. Para isso ativamos a propieade Is Trigger, sem a propieade Is Trigger a bola só iria bater e não iria atravessar e responder o script.<br>
+<img src = "imagens/trigger.jpg"> <br>
 
+## Rigidbody Trigger Collider
+Utilizamos ele na chuteira que adicionamos RigidBody para usar Is Kinematic (próximo) e um Box Collider para quando o Belligol atravessar e ocorrer a colisão, libere a segunda parte da cena. Para isso ativamos a propieade Is Trigger.<br>
+<img src = "imagens/trigger.jpg"> <br>
+<img src = "imagens/trigger.jpg"> <br>
+
+## Kinematic Rigidbody Trigger Collider
+Utilizamos ele na chuteira que adicionamos RigidBody para usar o Is Kinematic onde movimentamos a chuteira de um lado para o outro com script. També colocaos um Box Collider para quando o Belligol atravessar e ocorrer a colisão, libere a segunda parte da cena. Para isso ativamos a propieade Is Trigger. Como o Is trigger está ativado a física não irá responder.<br>
+<img src = "imagens/trigger.jpg"> <br>
+<img src = "imagens/trigger.jpg"> <br>
+
+# Cena rodando com todos os colisores
