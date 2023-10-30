@@ -49,7 +49,7 @@ Também criei um método Jogar para carregar a cena 1, e adicionei ele em um eve
 # Colisores
 ## Static Colidder
 É um colisor onde o componente fica parado, utilizamos no estádio, nas traves e no bloqueio.
-<img src = "imagens/colisoes.png"> <br>
+<img src = "imagens/static.png"> <br>
 
 
 
