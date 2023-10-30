@@ -25,7 +25,9 @@ A cena 2 é quando você faz o gol e é a comemoração do Belligol, e ao clicla
 # Scripts
 ## Movimentacao
 Foi adicionado ao Belligol e nesse script tem simples códigos para movimentação, rotação de câmera e 'congelar' ele para não tombar. <br>
-<img src = "imagens/movimentacao.png"> <br>
+<img src = "imagens/movi1.png"> <br>
+<img src = "imagens/movi2.png"> <br>
+<img src = "imagens/movi3.png"> <br>
 
 ## Chuteira
 Esse script foi adcionado a chuteira e serve para ele movimentar de um lado para o outro automaticamente.<br>
