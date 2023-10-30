@@ -13,7 +13,7 @@ Esse é um projeto onde utilizaremos os colisores: <br>
 6. Kinematic Rigidbody Trigger Collider <br>
 
 # Cena 1
-Fizemos o Morumbi e o jogador tem que pegar a chuteira em movimento para liberar a passagem para a bola, onde ele chutará no gol e trocará de cena ao tocar na rede. <br>
+Fizemos o Morumbi, e o jogador tem que pegar a chuteira em movimento para liberar a passagem para a bola, onde ele chutará no gol e trocará de cena ao tocar na rede. <br>
 Utilizamos GameObjects Modelados no Blender: Morumbi, chueteira e Belligol. <br>
 Do unity: Bola, rede, bloqueio, materiais com imagens. <br>
 <img src = "imagens/cena1.png"> <br>
