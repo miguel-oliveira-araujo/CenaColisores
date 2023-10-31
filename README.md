@@ -31,9 +31,9 @@ Colocamos um áudio de comemoração do Belligol.<br>
 # Scripts
 ## Movimentacao
 Foi adicionado ao Belligol e nesse script tem simples códigos para movimentação, rotação de câmera e 'congelar' ele para não tombar. <br>
-<img src = "imagens/movi1.png"> <br>
-<img src = "imagens/movi2.png"> <br>
-<img src = "imagens/movi3.png"> <br>
+<img src = "imagens/script1.jpg"> <br>
+<img src = "imagens/script2.jpg"> <br>
+<img src = "imagens/script3.jpg"> <br>
 
 ## Chuteira
 Esse script foi adcionado a chuteira e serve para ele movimentar de um lado para o outro automaticamente.<br>
@@ -81,3 +81,7 @@ Utilizamos ele na chuteira que adicionamos RigidBody para usar o Is Kinematic on
 <img src = "imagens/trigger.jpg"> <br>
 
 # Cena rodando com todos os colisores
+
+
+https://github.com/miguel-oliveira-araujo/CenaColisores/assets/127630556/4c7b1c97-e5e4-4fbe-9efb-5d5f38e74ac4
+
