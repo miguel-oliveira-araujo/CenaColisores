@@ -78,7 +78,17 @@ Utilizamos ele na chuteira que adicionamos RigidBody para usar Is Kinematic (pr�
 ## Kinematic Rigidbody Trigger Collider
 Utilizamos ele na chuteira que adicionamos RigidBody para usar o Is Kinematic onde movimentamos a chuteira de um lado para o outro com script. També colocaos um Box Collider para quando o Belligol atravessar e ocorrer a colisão, libere a segunda parte da cena. Para isso ativamos a propieade Is Trigger. Como o Is trigger está ativado a física não irá responder.<br>
 <img src = "imagens/rigid.jpg"> <br>
-<img src = "imagens/trigger.jpg"> <br>
+
+# HUD e Menu
+## Menu
+<img src = "imagens/menu.jpg"> <br>
+Criamos uma cena e adicionamos um elemento Canvas dentro da câmera. Colocamos um 'Panel' e uma imagem de fundo nele após mudar a imagem para Sprite 2D, o título do jogo é um TextMeshPro e importamos uma fonte de fora. Colocamos um botão para iniciar o jogo e mudamos o fundo dele igual o 'Panel', no botão adicionamos um evento de 'OnClick' para executar o método Jogar que foi feito no script, para iniciar a cena do jogo.<br>
+<img src = "imagens/menu1.png"> <br>
+
+### Tela Final
+<img src = "imagens/final.jpg"> <br>
+Vai para essa tela após a bola entrar (colidir) com o gol com o método 'OnTriggerEnter' para detectar colisão. Colocamos um TexTextMeshPro e importamos uma fonte de fora, para sinalizar que tem que clicar na bola para voltar ao menu. A bola é um botão que adicionamos uma imagem Sprite 2D, ele tem um evento 'OnClick' para executar o método Menu que foi feito no script, para voltar ao menu.<br>
+<img src = "imagens/final.png"> <br>
 
 # Cena rodando com todos os colisores (Ligue o som!)
 
