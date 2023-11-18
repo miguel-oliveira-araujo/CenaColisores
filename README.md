@@ -88,7 +88,7 @@ Criamos uma cena e adicionamos um elemento Canvas dentro da câmera. Colocamos u
 ### Tela Final
 <img src = "imagens/final.jpg"> <br>
 Vai para essa tela após a bola entrar (colidir) com o gol com o método 'OnTriggerEnter' para detectar colisão. Colocamos um TexTextMeshPro e importamos uma fonte de fora, para sinalizar que tem que clicar na bola para voltar ao menu. A bola é um botão que adicionamos uma imagem Sprite 2D, ele tem um evento 'OnClick' para executar o método Menu que foi feito no script, para voltar ao menu.<br>
-<img src = "imagens/final.png"> <br>
+<img src = "imagens/final1.png"> <br>
 
 # Cena rodando com todos os colisores (Ligue o som!)
 
