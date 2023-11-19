@@ -82,7 +82,7 @@ Utilizamos ele na chuteira que adicionamos RigidBody para usar o Is Kinematic on
 # HUD e Menu
 ## Menu
 <img src = "imagens/menu.jpg"> <br>
-Criamos uma cena e adicionamos um elemento Canvas dentro da câmera. Colocamos um 'Panel' e uma imagem de fundo nele após mudar a imagem para Sprite 2D, o título do jogo é um TextMeshPro e importamos uma fonte de fora. Colocamos um botão para iniciar o jogo e mudamos o fundo dele igual o 'Panel', no botão adicionamos um evento de 'OnClick' para executar o método Jogar que foi feito no script, para iniciar a cena do jogo.<br>
+Criamos uma cena e adicionamos um elemento Canvas dentro da câmera. Colocamos um 'Panel' e uma imagem de fundo nele após mudar a imagem para Sprite 2D, o título do jogo é um TextMeshPro e importamos uma fonte de fora. Colocamos um botão para iniciar o jogo e mudamos o fundo dele igual o 'Panel', no botão adicionamos um evento de 'OnClick' para executar o método Jogar que foi feito no script, para iniciar a cena do jogo. Também tem uma música de fundo que foi colocado[a com Audio Source.<br>
 <img src = "imagens/menu1.png"> <br>
 
 ### Tela Final
