@@ -81,12 +81,12 @@ Utilizamos ele na chuteira que adicionamos RigidBody para usar o Is Kinematic on
 
 # HUD e Menu
 ## Menu
-<img src = "imagens/menuuu.jpg"> <br>
-Criamos uma cena e adicionamos um elemento Canvas dentro da câmera. Colocamos um 'Panel' e uma imagem de fundo nele após mudar a imagem para Sprite 2D, o título do jogo é um TextMeshPro e importamos uma fonte de fora. Colocamos um botão para iniciar o jogo e mudamos o fundo dele igual o 'Panel', no botão adicionamos um evento de 'OnClick' para executar o método Jogar que foi feito no script, para iniciar a cena do jogo. Também tem uma música de fundo que foi colocadoda com Audio Source.<br>
+<img src = "imagens/menutop.jpg"> <br>
+Criamos uma cena e adicionamos um elemento Canvas dentro da câmera. Colocamos um 'Panel' e uma imagem de fundo nele após mudar a imagem para Sprite 2D, o título do jogo é um TextMeshPro e importamos uma fonte de fora. Colocamos um botão para iniciar o jogo e mudamos o fundo dele igual o 'Panel', no botão adicionamos um evento de 'OnClick' para executar o método Jogar que foi feito no script, para iniciar a cena do jogo. Outro botão foi criado (fechar) para fechar o jogo. Também tem uma música de fundo que foi colocadoda com Audio Source.<br>
 <img src = "imagens/menu1.png"> <br>
 
 ### Tela Final
-<img src = "imagens/final.jpg"> <br>
+<img src = "imagens/finaltop.jpg"> <br>
 Vai para essa tela após a bola entrar (colidir) com o gol com o método 'OnTriggerEnter' para detectar colisão. Colocamos um TexTextMeshPro e importamos uma fonte de fora, para sinalizar que tem que clicar na bola para voltar ao menu. A bola é um botão que adicionamos uma imagem Sprite 2D, ele tem um evento 'OnClick' para executar o método Menu que foi feito no script, para voltar ao menu.<br>
 <img src = "imagens/final1.png"> <br>
 
