@@ -71,18 +71,18 @@ Usamos ele nas redes do gol para quando ocorrer colisão e a bola atravessar mud
 <img src = "imagens/trigger.jpg"> <br>
 
 ## Rigidbody Trigger Collider
-Utilizamos ele na chuteira que adicionamos RigidBody para usar Is Kinematic (próximo) e um Box Collider para quando o Belligol atravessar e ocorrer a colisão, libere a segunda parte da cena. Para isso ativamos a propieade Is Trigger.<br>
+Utilizamos ele na chuteira que adicionamos RigidBody para usar Is Kinematic (próximo) e um Box Collider para quando o Belligol atravessar e ocorrer a colisão, libere a segunda parte da cena. Para isso ativamos a propiedade Is Trigger.<br>
 <img src = "imagens/rigid.jpg"> <br>
 <img src = "imagens/trigger.jpg"> <br>
 
 ## Kinematic Rigidbody Trigger Collider
-Utilizamos ele na chuteira que adicionamos RigidBody para usar o Is Kinematic onde movimentamos a chuteira de um lado para o outro com script. També colocaos um Box Collider para quando o Belligol atravessar e ocorrer a colisão, libere a segunda parte da cena. Para isso ativamos a propieade Is Trigger. Como o Is trigger está ativado a física não irá responder.<br>
+Utilizamos ele na chuteira que adicionamos RigidBody para usar o Is Kinematic onde movimentamos a chuteira de um lado para o outro com script. Também colocamos um Box Collider para quando o Belligol atravessar e ocorrer a colisão, libere a segunda parte da cena. Para isso ativamos a propieade Is Trigger. Como o Is trigger está ativado a física não irá responder.<br>
 <img src = "imagens/rigid.jpg"> <br>
 
 # HUD e Menu
 ## Menu
 <img src = "imagens/menu.jpg"> <br>
-Criamos uma cena e adicionamos um elemento Canvas dentro da câmera. Colocamos um 'Panel' e uma imagem de fundo nele após mudar a imagem para Sprite 2D, o título do jogo é um TextMeshPro e importamos uma fonte de fora. Colocamos um botão para iniciar o jogo e mudamos o fundo dele igual o 'Panel', no botão adicionamos um evento de 'OnClick' para executar o método Jogar que foi feito no script, para iniciar a cena do jogo. Também tem uma música de fundo que foi colocado[a com Audio Source.<br>
+Criamos uma cena e adicionamos um elemento Canvas dentro da câmera. Colocamos um 'Panel' e uma imagem de fundo nele após mudar a imagem para Sprite 2D, o título do jogo é um TextMeshPro e importamos uma fonte de fora. Colocamos um botão para iniciar o jogo e mudamos o fundo dele igual o 'Panel', no botão adicionamos um evento de 'OnClick' para executar o método Jogar que foi feito no script, para iniciar a cena do jogo. Também tem uma música de fundo que foi colocadoda com Audio Source.<br>
 <img src = "imagens/menu1.png"> <br>
 
 ### Tela Final
