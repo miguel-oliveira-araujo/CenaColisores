@@ -90,6 +90,14 @@ Criamos uma cena e adicionamos um elemento Canvas dentro da câmera. Colocamos u
 Vai para essa tela após a bola entrar (colidir) com o gol com o método 'OnTriggerEnter' para detectar colisão. Colocamos um TexTextMeshPro e importamos uma fonte de fora, para sinalizar que tem que clicar na bola para voltar ao menu. A bola é um botão que adicionamos uma imagem Sprite 2D, ele tem um evento 'OnClick' para executar o método Menu que foi feito no script, para voltar ao menu.<br>
 <img src = "imagens/final1.png"> <br>
 
+## HUD
+### Mini Mapa
+<img src = "imagens/mapa.jpg"><br>
+Para fazer o mini mapa adicionamos uma câmera com visão de cima do estádio, depois criamos uma render texture e colocamos ela na propiedade 'target texture' da câmera. Após isso criamos um material e mudamos o shader dele para 'UI' -> 'Default' e colocamos a render texture na propiedade 'texture' do material. Para adicionar ele no HUD criamos um 'RawImage' e atribuimos o material nele.<br>
+Para abrir e fechar o mapa duplicamos o mini mapa e colocamos ele em tamanho maior no meio e desativamos ele. Para abrir tem um botão invisível no mini mapa que desativa ele e ativa o maior. E para fechar tem o botão fechar que ao clicar desativa o mapa e ativa o mini mapa.<br>
+<img src = "imagens/mapacod.png"><br>
+
+
 # Cena rodando com todos os colisores (Ligue o som!)
 
 
