@@ -1,5 +1,5 @@
 # Cena Colisores
-# Feito por: Leonardo Macêdo e Miguel OLiveira
+# Feito por: Leonardo Macêdo e Miguel Oliveira
 # Link do Projeto
 https://drive.google.com/drive/folders/1O4YC3eR2RfOp66tohtep9VuhECkoocuy?usp=sharing
 
@@ -95,16 +95,16 @@ Vai para essa tela após a bola entrar (colidir) com o gol com o método 'OnTrig
 <img src = "imagens/mapa.jpg"><br>
 Para fazer o mini mapa adicionamos uma câmera com visão de cima do estádio, depois criamos uma render texture e colocamos ela na propiedade 'target texture' da câmera. Após isso criamos um material e mudamos o shader dele para 'UI' -> 'Default' e colocamos a render texture na propiedade 'texture' do material. Para adicionar ele no HUD criamos um 'RawImage' e atribuimos o material nele.<br>
 Para abrir e fechar o mapa duplicamos o mini mapa e colocamos ele em tamanho maior no meio e desativamos ele. Para abrir tem um botão invisível no mini mapa que desativa ele e ativa o maior. E para fechar tem o botão fechar que ao clicar desativa o mapa e ativa o mini mapa.<br>
-<img src = "imagens/mapacod.pn"><br>
+<img src = "imagens/mapacod.png"><br>
 
 ### Mensagens na tela
 <img src = "imagens/aviso.jpg"><br>
-Colocamos duas mensagens na tela para indicar o que o jogador deve fazer, para existir a troca de mensagens o jogador colide com a chuteira, quando ocorre a colisão desativa o texto 1 e ativa o texto 2.
+Colocamos duas mensagens na tela para indicar o que o jogador deve fazer, para existir a troca de mensagens o jogador colide com a chuteira, quando ocorre a colisão desativa o texto 1 e ativa o texto 2.<br>
 <img src = "imagens/avisocod.jpg"><br>
 
 
-# Cena rodando com todos os colisores (Ligue o som!)
+# Jogo rodando com os colisores, HUD e Menu (Ligue o som!) (Vídeo novo)
 
 
-https://github.com/miguel-oliveira-araujo/CenaColisores/assets/127630556/4c7b1c97-e5e4-4fbe-9efb-5d5f38e74ac4
+https://github.com/miguel-oliveira-araujo/CenaColisores/assets/127630556/9b0b6ead-062a-4a5d-9b47-cbf5e0e8dfc6
 
