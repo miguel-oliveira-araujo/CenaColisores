@@ -95,7 +95,12 @@ Vai para essa tela após a bola entrar (colidir) com o gol com o método 'OnTrig
 <img src = "imagens/mapa.jpg"><br>
 Para fazer o mini mapa adicionamos uma câmera com visão de cima do estádio, depois criamos uma render texture e colocamos ela na propiedade 'target texture' da câmera. Após isso criamos um material e mudamos o shader dele para 'UI' -> 'Default' e colocamos a render texture na propiedade 'texture' do material. Para adicionar ele no HUD criamos um 'RawImage' e atribuimos o material nele.<br>
 Para abrir e fechar o mapa duplicamos o mini mapa e colocamos ele em tamanho maior no meio e desativamos ele. Para abrir tem um botão invisível no mini mapa que desativa ele e ativa o maior. E para fechar tem o botão fechar que ao clicar desativa o mapa e ativa o mini mapa.<br>
-<img src = "imagens/mapacod.png"><br>
+<img src = "imagens/mapacod.pn"><br>
+
+### Mensagens na tela
+<img src = "imagens/aviso.jpg"><br>
+Colocamos duas mensagens na tela para indicar o que o jogador deve fazer, para existir a troca de mensagens o jogador colide com a chuteira, quando ocorre a colisão desativa o texto 1 e ativa o texto 2.
+<img src = "imagens/avisocod.jpg"><br>
 
 
 # Cena rodando com todos os colisores (Ligue o som!)
